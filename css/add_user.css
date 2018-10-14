@@ -72,10 +72,11 @@ textarea{
 
 body{
     background-color: whitesmoke;
-    
+    background-image: url("../images/add.PNG");
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 1400px;
+    color: maroon;
 }
 @media only screen and (max-width: 700px){
     body{
