@@ -9,6 +9,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    
 }
 button {
     background-color: #4CAF50;
@@ -72,6 +73,7 @@ textarea{
 
 body{
     background-color: whitesmoke;
+    background-image: url("../images/add product.PNG");
     
     background-repeat: no-repeat;
     background-position-x: right;
