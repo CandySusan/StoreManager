@@ -73,7 +73,9 @@ textarea{
 
 body{
     background-color: whitesmoke;
-    background-image: url("../images/add product.PNG");
+    background-image: url("../images/add.PNG");
+    color:maroon;
+    font-family: Arial, Helvetica, sans-serif;
     
     background-repeat: no-repeat;
     background-position-x: right;
