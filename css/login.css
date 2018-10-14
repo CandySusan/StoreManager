@@ -40,3 +40,8 @@ body{
     background-position-x: right;
     background-size: 1400px;
 }
+@media only screen and (max-width: 700px){
+    body{
+        background-color: whitesmoke;
+    }
+}
