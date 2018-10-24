@@ -2,13 +2,14 @@ form {
     border: 3px solid black;
     margin-top: 50px;
 }
-input[type=text], input[type=password] {
+input[type=text], input[type=password]{
     width: 30%;
     padding: 10px 10px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+
 }
 button {
     background-color: #4CAF50;
@@ -35,14 +36,49 @@ span.psw {
 }
 body{
     
-    background-image: url("../images/login1.PNG");
+    
+    background-color:whitesmoke;
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 1400px;
-    color:black
+    font: white;
+    color: maroon;
 }
+
+
 @media only screen and (max-width: 700px){
     body{
         background-color: whitesmoke;
+        
     }
+}
+#footer {
+    background-color:green;
+    color:white;
+    clear:both;
+    text-align:center;
+    font-family: a
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }

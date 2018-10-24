@@ -18,10 +18,11 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 body{
-    background-image: url("../images/logo.PNG");
+    
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 1400px;
+    color: maroon;
     
   
 }
@@ -31,3 +32,33 @@ body{
         background-color: lightblue;
     }
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#footer {
+    background-color:green;
+    color:white;
+    clear:both;
+    text-align:center;
+    font-family: a
+ }

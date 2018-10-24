@@ -11,14 +11,29 @@
 </head>
 
 <body>
+    <header>
+        <form action="">
+            <div class="container">
 
+                <ul>
+                    <li><a class="active" href="../UI/admin.html">Admin</a></li>
+                    <li><a href="store_attendant.html">Store Attendant</a></li>
+                    <li><a href="add_user.html">Add User</a></li>
+                    <li><a href="add_product.html">Add Product</a></li>
+                    <li><a href="inventory.html">View Inventory</a></li>
+                    <li><a href="view_sales_record.html">View Sales Record</a></li>
+                </ul>
 
-    <center>
+            </div>
+    </header>
+    <h1>
+        <center>
+
+            <i>Welcome To StoreManager</i></center>
+    </h1>
+
+    <div class="container">
         <div class="login-form">
-            <h1>
-                <left><i>Welcome To StoreManager</i></left>
-            </h1>
-
 
 
             <label><b>Username</b></label><br>
@@ -26,29 +41,38 @@
             <br>
 
             <label><b>Password</b></label><br>
-            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <input type="password" placeholder="*************" name="psw" required><br>
+            <div class="center">
+                <input class="button-blue" type="submit" value="Log in">
+            </div>
 
-            <button type="submit"><a href="../UI/store_attendant.html">Login</a></button><br>
 
             <input type="checkbox" checked="checked"> Remember me
         </div>
+    </div>
+    </div>
 
-        <div>
-            <button type="button" class="cancelbtn">Cancel</button>
-            <center><span class="psw">Forgot <a href="#">password?</center></a></span>
-
-        </div>
+    <div>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
 
 
-        <div class="sign-up-info">
-            <p>
-                Don't have an account? <br><a href="../UI/admin.html">Contact Admin</a>
-            </p>
-        </div>
+    </div>
+
+
+    <div class="sign-up-info">
+        <p>
+            Don't have an account? <br><a href="../UI/admin.html">Contact Admin</a>
+        </p>
+    </div>
+    </form>
+    <div id="footer">
+
         <footer class="center">
 
             <p> <b>© 2018 StoreManager </b></p>
-    </center>
+    </div>
+
     </footer>
 
 </html>
