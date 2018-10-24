@@ -11,63 +11,74 @@
 </head>
 
 <body>
+    <header>
 
+        <div class="container">
+            <ul>
+                <li><a class="active" href="../UI/store_attendant.html">Store Attendant</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="add_user.html">Add User</a></li>
+                <li><a href="add_product.html">Add Product</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="view_sales_record.html">View Sales Record</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1>
+        <center>
 
+            <b>Add User</b></center>
+    </h1>
 
-
-
-    <form>
-        <div>
-
-            <div class="form-group">
-                <label class="form-label" for="field-1">Name</label>
-                <span class="desc"></span>
-                <div class="controls">
-                    <input type="text" value="" class="form-control" id="field-1">
-                </div>
-            </div>
-
-
-            <div class="form-group">
-                <label class="form-label" for="field-5">Date of Birth</label>
-                <span class="desc">e.g. "04/03/2015"</span>
-                <div class="controls">
-                    <input type="text" value="" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label class="form-label" for="field-5">Gender</label>
-                <span class="desc"></span><br>
-                <select class="form-control">
-                    <option></option>
-                    <option>Male</option>
-                    <option>Female</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="field-1">Profile Image</label>
-                <span class="desc"></span><br>
-                <div class="controls">
-                    <input type="file" class="form-control" id="field-5">
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label class="form-label" for="field-6">Brief</label>
-                <span class="desc">e.g. "Enter any size of text description here"</span>
-                <div class="controls">
-                    <textarea class="form-control autogrow" id="field-6"></textarea>
-                </div>
+    <div class="container">
+        <div class="login-group">
+            <label class="form-label" for="field-1">Name</label>
+            <span class="desc"></span>
+            <div class="controls">
+                <input type="text" value="" class="form-control" id="field-1">
             </div>
         </div>
 
-        <div>
-            <div class="text-left">
-                <button type="button" class="btn btn-primary"><a href="../UI/login.html">Add User</a></button>
-                <button type="button" class="btn">Cancel</button>
+        <div class="form-group">
+            <label class="form-label" for="field-5">Date of Birth</label>
+            <span class="desc">e.g. "04/03/2015"</span>
+            <div class="controls">
+                <input type="text" value="" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
             </div>
         </div>
+
+        <div class="form-group">
+            <label class="form-label" for="field-5">Gender</label>
+            <span class="desc"></span><br>
+            <select class="form-control">
+                <option></option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="field-1">Profile Image</label>
+            <span class="desc"></span><br>
+            <div class="controls">
+                <input type="file" class="form-control" id="field-5">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="field-6">Brief</label>
+            <span class="desc">e.g. "Enter any size of text description here"</span>
+            <div class="controls">
+                <textarea class="form-control autogrow" id="field-6"></textarea>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <div class="text-left">
+            <button type="button" class="btn btn-primary"><a href="../UI/login.html">Add User</a></button>
+            <button type="button" class="btn">Cancel</button>
+        </div>
+    </div>
     </form>
     </div>
 
@@ -75,15 +86,14 @@
     </div>
     </section>
     </div>
-    <center>
+    <div id="footer">
+
         <footer class="center">
 
-
-            <br><br>
-
             <p> <b>© 2018 StoreManager </b></p>
-        </footer>
-    </center>
+    </div>
+
+    </footer>
 </body>
 
 </html>
